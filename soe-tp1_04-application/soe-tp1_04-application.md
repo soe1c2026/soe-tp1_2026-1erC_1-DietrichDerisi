@@ -1,5 +1,6 @@
 **TP1 – Actividad 04:**
 
+
 **¿CÓMO IMPLEMENTAR EL PROCESAMIENTO PERIÓDICO DE UNA MEDIANTE UNA TAREA?**
 
 Existen varias formas de implementar un procesamiento periódico mediante una Tarea. La más rudimentaria es utilizando un ciclo NULL ("NULL Loop"). Esta metodología tiene una clara desventaja y es que la tarea de mayor prioridad permanece en estado en ejecución mientras ejecutaba el bucle nulo, provocando inanición (_starving_) en la tarea de menor prioridad al dejarla sin ningún tiempo de procesamiento. 
